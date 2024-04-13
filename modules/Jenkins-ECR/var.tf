@@ -1,6 +1,7 @@
 
 variable "security_group_id" {
    description = "security group for jenkins"
+   
 }
 
 variable "ami-jenkins" {

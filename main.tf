@@ -28,5 +28,5 @@ module "Jenkins-ECR" {
   subnet_id            = module.VPC.subnet_id
   iam_instance_profile = module.VPC.instance_profile
   keypair              = var.keypair
-  security_group_id    = module.security_grp.security_group_id
+  security_group_id    = [module.security_grp.security_group_id]
 }
