@@ -14,8 +14,8 @@ variable "zone" {
   type = string
 }
 
-variable "tooling_vpc"{
-type = string
+variable "tooling_vpc" {
+  type = string
 }
 
 variable "from_port1" {
@@ -47,14 +47,11 @@ variable "to_port4" {
 variable "ip_protocol" {
   type = string
 }
-variable "ip_protocol" {
-  type = string
-}
 variable "cidr_ipv4" {
   type = string
 }
 variable "ami-jenkins" {
-    type = string
+  type = string
 }
 variable "subnet_id" {
   type = string
@@ -62,7 +59,7 @@ variable "subnet_id" {
 
 
 variable "iam_instance_profile" {
-  type = string
+  type        = string
   description = "IAM role for ECR access"
 }
 variable "keypair" {
