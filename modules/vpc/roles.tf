@@ -30,7 +30,8 @@ resource "aws_iam_policy" "ecr_access_policy" {
           "ecr:GetAuthorizationToken",
           "ecr:InitiateLayerUpload",
           "ecr:AmazonEC2ContainerRegistryFullAccess",
-          "ecr:UploadLayerPart"
+          "ecr:UploadLayerPart",
+          "ecr:CompleteLayerUpload"
         ],
         Effect   = "Allow",
         Resource = "*"
