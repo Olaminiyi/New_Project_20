@@ -28,7 +28,8 @@ resource "aws_iam_policy" "ecr_access_policy" {
           "ecr:BatchGetImage",
           "ecr:BatchCheckLayerAvailability",
           "ecr:GetAuthorizationToken",
-          "ecr:InitiateLayerUpload"
+          "ecr:InitiateLayerUpload",
+          "ecr:AmazonEC2ContainerRegistryFullAccess"
         ],
         Effect   = "Allow",
         Resource = "*"
