@@ -27,7 +27,8 @@ resource "aws_iam_policy" "ecr_access_policy" {
           "ecr:GetDownloadUrlForLayer",
           "ecr:BatchGetImage",
           "ecr:BatchCheckLayerAvailability",
-          "ecr:GetAuthorizationToken"
+          "ecr:GetAuthorizationToken",
+          "ecr:InitiateLayerUpload"
         ],
         Effect   = "Allow",
         Resource = "*"
