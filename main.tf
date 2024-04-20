@@ -18,6 +18,10 @@ module "security_grp" {
   to_port3    = var.to_port3
   from_port4  = var.to_port4
   to_port4    = var.to_port4
+  from_port5 = var.from_port5
+  to_port5 = var.to_port5
+  from_port6 = var.from_port6
+  to_port6 = var.to_port6
   ip_protocol = var.ip_protocol
   cidr_ipv4   = var.cidr_ipv4
 

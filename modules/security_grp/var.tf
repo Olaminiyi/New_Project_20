@@ -28,6 +28,19 @@ variable "to_port4" {
   type = number
 }
 
+
+variable "from_port5" {
+  type = number
+}
+variable "to_port5" {
+  type = number
+}
+variable "from_port6" {
+  type = number
+}
+variable "to_port6" {
+  type = number
+}
 variable "ip_protocol" {
   type = string
 }
