@@ -6,7 +6,7 @@ subnet_cidr = "172.16.1.0/24"
 
 zone = "us-east-1a"
 
-ami-jenkins = "ami-072ecc89e3d5ae067"
+ami-jenkins = "ami-00991f3e7f4678eb9"
 keypair     = "devops1"
 
 tooling_vpc = "aws_vpc.tooling_vpc.id"
