@@ -39,9 +39,9 @@ resource "aws_iam_policy" "ecr_access_policy" {
         
           
         ],
-        "Principal": {
-                "AWS": "arn:aws:iam::992382761454:user/terraform"
-            },
+        #"Principal": {
+          #      "AWS": "arn:aws:iam::992382761454:user/terraform"
+         #  },
         Effect   = "Allow",
         Resource = "*"
       }
